@@ -14,7 +14,7 @@ variable "handler" {
 }
 
 variable "runtime" {
-    description = "The runtime for the Lmabda function"
+    description = "The runtime for the Lambda function"
     type = string
 }
 
