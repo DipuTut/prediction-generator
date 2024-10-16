@@ -14,7 +14,7 @@ variable "handler" {
 }
 
 variable "runtime" {
-    description = "The runtime for the Lambda function"
+    description = "The runtime for the Lmabda function"
     type = string
 }
 
@@ -26,4 +26,9 @@ variable "lambda_zip_path" {
 variable "lambda_environment_vars" {
     description = "Environment variables for the Lambda function"
     type = map(string)
+}
+
+variable "dynamodb_table_name" {
+    description = "The name of the DynamoDB table to use"
+    type = string
 }
